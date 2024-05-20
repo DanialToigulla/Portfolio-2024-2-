@@ -1,0 +1,226 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+h1{
+    font-family: 'Raleway';
+    font-size: 6vh;
+    color: #FFE6E6;
+    font-weight: 600;
+    margin: 0;
+}
+h2{
+    color: #FFE6E6; 
+    font-size: 4vh;
+    font-family: 'Raleway';
+}
+header{
+    background-color: #AD88C6;
+    height: 15vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 7;
+}
+nav{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+li {
+    display: inline;
+    list-style: none;
+    padding: 7vh;
+    font-size: 2.8vh;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: #FFE6E6;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+#hero{
+    margin-top: 15vh;
+    background-color: #7469B6;
+    display: flex;
+    height: 90vh;
+}
+
+.description{
+    width: 50%;
+    margin-top: 10%;
+    height: 90%;
+    left: 40vh;
+    justify-content: center;
+    text-align: center;
+}
+.photo{
+    width: 30vh;
+    margin-left: 10%;
+    height: 100%;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    z-index: 5;
+    padding-top: 30px;
+}
+.me{
+    height: 52vh;
+    border: solid 2vh #AD88C6;
+}
+.frame{
+    width: 43vh;
+    height: 56vh;
+    border: 10px outset #AD88C6b0;
+    box-shadow: 7vh 0vh 8vh 1vh  rgba(24, 23, 23, 0.2);
+    transform: rotateY(20deg);
+    transform: rotateX(20deg);
+    transform: rotateZ(5deg);
+}
+
+.separator{
+    width: 100%;
+    height: 1vh;
+    background-color: #AD88C6;
+}
+/*section 2*/
+
+#about-me{
+ height: 90vh;
+ width: 100%;
+ background-color: #7469B6;
+}
+.start{
+    position: relative;
+    top: 10vh;
+    left: 22vh;
+    width: 78vh;
+    text-align: center;
+}
+.manyphotos{
+    position: relative;
+    width: 52vh;
+    height: 52vh;
+    top: 20vh;
+    left: 15vh;
+    display: flex;
+}
+.ph1{
+    width:24vh;
+    height: 24vh;
+    border: #AD88C6 solid 1vh;
+}
+.ph2{
+    width:24vh;
+    height: 24vh;
+    border: #AD88C6 solid 1vh;
+}
+.ph3{
+    width:24vh;
+    height: 24vh;
+    border: #AD88C6 solid 1vh;
+}
+.ph4{
+    width:24vh;
+    height: 24vh;
+    border: #AD88C6 solid 1vh;
+}
+.ph{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.boutme{
+    bottom: 25vh;
+    left: 40%;
+    position: relative;
+    height: 50vh;
+    width: 40%;
+    padding-left: 200px;
+}
+
+/*section 3*/
+#my-skills{
+    height: 90vh;
+    width: 100%;
+    background-color: #7469B6;
+    text-align: center;
+}
+.skill{
+    position: relative;
+    top: 21vh;
+    left: 15vh;
+    display: flex;
+    height: 10%;
+    margin: 2vh;
+}
+.spec{
+    position: relative;
+    width: 20%;
+}
+.rate{
+    display: flex;
+    width: 100%;
+}
+.arr{
+    height: 80%;
+}
+#achievements{
+    height: 90vh;
+    width: 100%;
+    background-color: #7469B6;
+}
+.football{
+    position: relative;
+    top: 21vh;
+    left: 15vh;
+    display: flex;
+    height: 30%;
+    padding-right: 150px;
+    
+}
+.cf{
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+.medium{
+    top: 28vh;
+    position: relative;
+    width: 100%;
+    left: 15vh;
+    display: flex;
+    height: 30%;
+}
+.ling{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.conteiner{
+    display: flex;
+    width: 100%;
+    margin-top: 6px;
+}
+.card{
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 125px;
+    background-color:#FFE6E6;
+    flex: 1;
+    transition: .3s all ease;
+    text-align: center;
+    justify-content: center;
+}
+.card:hover{
+    flex: 2;
+    background-color: #7469B6;
+    
+}
